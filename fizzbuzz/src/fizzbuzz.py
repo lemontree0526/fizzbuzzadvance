@@ -13,6 +13,8 @@ class FizzBuzzWhizz:
             return "BuzzWhizz"
         if self.number % 3 == 0:
             return "Fizz"
+        if self.number % 3 != 0 and self.number % 7 != 0 and self.number % 5 == 0:
+            return "Buzz"
         if self.number % 5 == 0:
             return "Buzz"
         if self.number % 7 == 0:
