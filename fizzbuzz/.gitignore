@@ -126,8 +126,6 @@ _deps
 /var/package/*
 !/var/package/*.xml
 
-*.idea
-
 ### Node template
 # Logs
 logs
