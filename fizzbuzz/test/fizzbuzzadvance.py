@@ -12,3 +12,8 @@ def test_should_return_Fizz_when_playing_game_given_number_is_only_mod_by_3_and_
 def test_should_return_Fizz_when_playing_game_given_number_is_only_mod_by_5_and_not_container_3_5_7():
     fbw = FizzBuzzWhizz(int(10))
     assert fbw.game_num() == "Buzz"
+
+
+def test_should_return_Whizz_when_playing_game_given_number_is_only_mod_by_7_and_not_container_3_5_7():
+    fbw = FizzBuzzWhizz(int(14))
+    assert fbw.game_num() == "Whizz"
